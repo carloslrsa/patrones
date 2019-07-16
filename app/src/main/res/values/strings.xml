@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppPanamericanos</string>
+    <string name="MAPS_API_KEY">AIzaSyBdoPlLR9F-bkaz6fpPUgsJs7glTSK3rSQ</string>
+    <string name="MLAB_API_KEY">JFoAa9aNXLSup9OeTp9UwsH0vVP1w4j9</string>
+</resources>

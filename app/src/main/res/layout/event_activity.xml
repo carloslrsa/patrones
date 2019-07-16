@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/baselayout_event_cl"
+        layout="@layout/event_activity_base"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/loadinglayout_event_cl"
+        layout="@layout/global_loading_layout"
+        android:visibility="visible" />
+
+    <include
+        android:id="@+id/alternativelayout_event_cl"
+        layout="@layout/global_state_layout"
+        android:visibility="gone"/>
+
+</LinearLayout>

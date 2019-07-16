@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sports_array">
+        <item>«Deportes»</item>
+    </string-array>
+
+    <string-array name="disciplines_array">
+        <item>«Disciplinas»</item>
+    </string-array>
+    
+    <string-array name="places_array">
+        <item>«Lugares»</item>
+    </string-array>
+</resources>

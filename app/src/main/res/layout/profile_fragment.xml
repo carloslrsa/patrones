@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.fragments.ProfileFragment">
+
+    <include
+        android:id="@+id/baselayout_profile_cl"
+        layout="@layout/profile_fragment_logged"
+        android:visibility="gone"/>
+    <include
+        android:id="@+id/loadinglayout_profile_cl"
+        layout="@layout/global_loading_layout"
+        android:visibility="gone"
+        />
+    <include
+        android:id="@+id/alternativelayout_profile_cl"
+        layout="@layout/profile_fragment_unlogged"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
